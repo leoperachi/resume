@@ -4,7 +4,7 @@ import { MdWorkHistory } from "react-icons/md";
 import { PiStudentFill } from "react-icons/pi";
 import { motion } from 'framer-motion';
 import { useState } from "react";
-import { VscAccount, VscChromeClose } from "react-icons/vsc";
+import { VscAccount } from "react-icons/vsc";
 import { BsMailboxFlag } from "react-icons/bs";
 import { TiPhoneOutline } from "react-icons/ti";
 import { MdAlternateEmail } from "react-icons/md";
