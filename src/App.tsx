@@ -11,8 +11,6 @@ import { MdAlternateEmail } from "react-icons/md";
 import { SiLinkedin } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
 import { FaComputer } from "react-icons/fa6";
-import { IoTerminalSharp } from "react-icons/io5";
-import { FaDatabase } from "react-icons/fa";
 export default function App() {
   const [showPanel, setShowPanel] = useState(1);
 
@@ -92,7 +90,7 @@ export default function App() {
             <div className="content-center" style={{marginTop: '3px', marginBottom: '2px'}}>
               <div className="p-5 justify-center items-center" style={{backgroundColor: '#1f1f1f'}}>
                 <div className="flex justify-center items-center">
-                  <img src="./leo-prof.jpg" className="imgSm" style={{height: '40vh', width: '250px', backgroundImage: 'url("./leo-prof.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', borderRadius:'15px', marginBottom: '15px' }}></img>
+                  <img src="./leo-prof.jpg" alt="teste" className="imgSm" style={{height: '40vh', width: '250px', backgroundImage: 'url("./leo-prof.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', borderRadius:'15px', marginBottom: '15px' }}></img>
                 </div>
                 <div className="flex"><VscAccount size={25} style={{marginTop: '18px'}}/><h1 className="p-3 text-md lg:text-2xl">Leonardo A. Perachi</h1></div>
                 <div className="flex"><BsMailboxFlag style={{marginTop: '18px'}}/><p className="p-3 text-md lg:text-lg">Rua Burum 94 - Bairro: Vila Assunção</p></div>
